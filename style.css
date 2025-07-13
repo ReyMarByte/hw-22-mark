@@ -1,0 +1,24 @@
+body{
+    margin: 0 auto;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 5%;
+}
+.block{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction:  column;
+    border: 1px solid #ccc;
+}
+
+h1, h2, h3{
+    margin: 10px;
+}
